@@ -2,8 +2,8 @@ name: Auto Update Configs
 
 on:
   schedule:
-    # Runs every 60 minutes
-    - cron: '0 * * * *'
+    # Runs every 4 hours (00:00, 04:00, 08:00, etc.)
+    - cron: '0 */4 * * *'
   workflow_dispatch: # Allows you to manually click "Run" button
 
 jobs:
@@ -20,9 +20,6 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-
-      - name: Install Dependencies
-        run: pip install -r requirements.txt
 
       - name: Run Aggregator Script
         run: python main.py
