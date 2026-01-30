@@ -24,10 +24,11 @@ jobs:
       - name: Run Aggregator Script
         run: python main.py
 
-      - name: Commit and Push
+- name: Commit and Push
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config --local user.email "ninja@ninjastrikers.net"
+          git config --local user.name "Ninjastrikers"
+          
           git add .
           git commit -m "🚀 Auto-update configs [$(date)]" || exit 0
           git push
