@@ -18,8 +18,10 @@ SOURCES = [
     "https://raw.githubusercontent.com/free-v2ray-config/trojan/main/trojan.txt",
     "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
     "https://raw.githubusercontent.com/mianous/qiren/main/qiren.txt",
-    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub7.txt",
-    "https://raw.githubusercontent.com/nyeinkokoaung404/V2ray-Configs/main/All_Configs_Sub.txt",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub1.txt",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub2.txt",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub3.txt",
+    "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt",
     "https://raw.githubusercontent.com/sarina-ad/v2ray/main/v2ray",
     "https://raw.githubusercontent.com/Iran-v2ray/v2ray/main/v2ray",
 ]
