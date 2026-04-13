@@ -24,6 +24,10 @@ SOURCES = [
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/main/Sub4.txt",
     "https://raw.githubusercontent.com/sarina-ad/v2ray/main/v2ray",
     "https://raw.githubusercontent.com/Iran-v2ray/v2ray/main/v2ray",
+    "https://raw.githubusercontent.com/MrAbolfazlNorouzi/iran-configs/refs/heads/main/configs/working-configs.txt",
+    "https://raw.githubusercontent.com/arshiacomplus/v2rayExtractor/refs/heads/main/mix/sub.html",
+    "https://www.v2nodes.com/subscriptions/country/all/?key=CCAD69583DBA2BF",
+    "https://raw.githubusercontent.com/4n0nymou3/multi-proxy-config-fetcher/refs/heads/main/configs/proxy_configs.txt",
 ]
 
 PROTOCOLS = ['vmess://', 'vless://', 'trojan://', 'ss://', 'ssr://', 'hysteria://', 'hysteria2://', 'tuic://']
