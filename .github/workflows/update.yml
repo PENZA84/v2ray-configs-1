@@ -24,7 +24,7 @@ jobs:
       - name: Run Aggregator Script
         run: python main.py
 
-- name: Commit and Push
+      - name: Commit and Push
         run: |
           git config --local user.email "ninja@ninjastrikers.net"
           git config --local user.name "Ninjastrikers"
